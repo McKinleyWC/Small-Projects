@@ -1,0 +1,26 @@
+//This program is the skeleton form of a file I/O.
+
+import java.io.*;
+import java.util.*;
+
+//Add aditional imports as needed.
+
+public class SkeletonI/O
+{
+   //Declare appropriate variables
+   public static void main(String[] args)
+                             throws FileNotFoundException
+   {
+      //Create and associate the stream objects
+      Scanner inFile = 
+            new Scanner(new FileReader("prog.dat"));
+      
+      PrintWriter outFile = new PrintWriter("prog.out");
+      
+         //Code for data manipulation
+            
+            //Close file
+      inFile.close();
+      outFile.close();
+   }
+}
